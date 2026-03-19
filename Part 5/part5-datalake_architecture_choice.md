@@ -1,3 +1,5 @@
+## Architecture Recommendation
+
 A Data Lakehouse architecture is the most suitable choice for this fast-growing food delivery startup because it effectively handles diverse data types while supporting both analytics and machine learning workloads.
 
 First, the startup generates multiple types of data: structured data such as payment transactions and GPS logs, and unstructured data such as customer reviews (text) and restaurant menu images. A traditional Data Warehouse is not well-suited for unstructured data, while a Data Lake can store all data types but lacks efficient querying and structure. A Data Lakehouse combines the strengths of both by allowing storage of raw data in its native format while also enabling structured querying using SQL.
